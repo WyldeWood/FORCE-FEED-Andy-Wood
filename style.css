@@ -1,0 +1,64 @@
+@font-face {
+font-family:'StarWarsFont';
+src: url(Starjhol.ttf);
+}
+header {
+	height:108pt;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
+h1{
+	border:5px solid #FFE800;
+	padding-bottom: 10px;
+	margin:0;
+	text-align:center;
+	font-size: 60pt;
+	font-family: StarWarsFont, sans-serif;
+	color:#FFE800;
+	background-color: black;
+}
+#Tweets{
+	padding-top:150px;
+	margin-left: auto;
+	margin-right: auto;
+	height:800px;
+	width:500px;
+	overflow: scroll;
+}
+
+#Tweet{
+	border-radius:10px;
+	border:3px solid #FFE800;
+	margin: 10px 0px;
+	padding:10px 10px;
+	background-color: black;
+	float:center;
+
+}
+#Tweet img{
+	display:inline-block;
+	padding-right:5px;
+	height:auto;
+	width:auto;
+	max-width:50px;
+	max-height: 50px
+
+}
+#Tweet p{
+	color:#FFE800;
+}
+#Tweet a{
+	color:#888788;
+	text-decoration: none;
+}
+#Tweet a:hover{
+	color:#b9b8b9;
+}
+body{
+	min-width: 600px;
+	background-image: url("mirrored stormtrooper.jpg");
+}
+
+
